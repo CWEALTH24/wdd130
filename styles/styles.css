@@ -1,3 +1,18 @@
+h1{
+    background-color: darkblue;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+nav{
+    background-color: darkblue;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    display: block;
+    padding: 20px;
+}
 main{
     max-width: 840px;
 }
@@ -17,6 +32,9 @@ aside img{
 main img{
     width: 150px;
     height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    shadow-box: 0 0 30px gray;
 }
 p{padding: 0;}
 footer{
