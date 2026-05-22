@@ -1,11 +1,11 @@
 /* CSS VARIABLES */
 :root {
-    --primary-color: #1e88e5;
-    --secondary-color: #0d47a1;
-    --accent1-color: #ffffff;
-    --accent2-color: #f5f5f5;
-    --body-font: Arial, sans-serif;
-    --heading-font: Georgia, serif;
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #b0330d;
+    --body-font: Arial, Helvetica, sans-serif;
+    --heading-font: Times New Roman,Georgia, serif;
 }
 
 /* RESET */
@@ -18,8 +18,7 @@
 /* BODY */
 body {
     font-family: var(--body-font);
-    color: var(--secondary-color);
-    background-color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 /* LAYOUT WIDTH */
@@ -31,7 +30,10 @@ header, main, footer {
 /* HEADINGS */
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    background: #66866be1;
+    background: #66866be1;
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 /* GENERAL SPACING */
@@ -42,16 +44,15 @@ nav, p, section, article {
 
 /* HEADER */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: white;
+    color: var(--primary-color);
 }
 
 /* NAV LINKS */
 nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-weight: bold;
 }
 
@@ -67,32 +68,32 @@ nav a {
 }
 
 /* HERO TITLE */
-.hero h1 {
+.h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     text-align: center;
-    padding: 16px;
-    opacity: 0.7;
-    background-color: var(--secondary-color);
-    color: white;
+    padding: 10px;
+    opacity: 0.7px;
+    background-color: var(--accent2-color);
+    color: #16c06bef;
 }
 
 /* HERO ARTICLE */
-.hero article {
+.hero article {  
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 20px;
-    background: white;
-    padding: 10px;
-    width: 300px;
+    background: #66866be1;
+    padding: 7px;
+    width: 775px;
 }
 
 /* HERO ARTICLE IMAGE */
 .hero article img {
     float: right;
-    width: 125px;
-    margin-left: 10px;
+    width: 180px;
+    margin: 0 10px 10px; 
 }
 
 /* FOOTER SOCIAL MEDIA */
