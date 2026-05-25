@@ -35,15 +35,19 @@ header {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--accent1-color);
+    color: #000;
 }
-.logo{
+ .logo{
     width: 100px;
     height: 80px;
     background-color: var(--accent2-color);
     border: 1px solid #000;
 }
 
+
+h2 {
+    color: var(--accent1-color);
+}
 /* NAV LINKS */
 nav {
     display: flex;
@@ -75,6 +79,10 @@ section {
     padding: 20px;
     margin-top: 20px;
     border: 1px solid #000;
+}
+
+section:nth-of-type(2) {
+  background-color: white;
 }
 
 h1 h2 {
