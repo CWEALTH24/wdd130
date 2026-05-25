@@ -5,7 +5,7 @@
     --accent2-color: #b0330d;
     --body-font: Arial, Helvetica, sans-serif;
     --heading-font: Times New Roman,Georgia, serif;
-    --white: #fff;
+    --white: #ffffff;
     --black: #000;
 }
 
@@ -83,9 +83,6 @@ section {
     border: 1px solid var(--black);
 }
 
-section:nth-of-type(2) h2 { 
-  background-color: var(--white);
-}
 article h2 {
   color: var(--white);
 }
@@ -93,6 +90,10 @@ article h2 {
 h1 h2 {
   text-align: center;
   margin-bottom: 20px;
+}
+
+section:nth-of-type(2) h2 {
+  color: var(--white);
 }
 
 /* HERO SECTION */
