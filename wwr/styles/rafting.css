@@ -82,12 +82,36 @@ h1 h2 {
   border: 1px solid #000;
   margin-top: 20px;
   padding: 20px;
+  position: relative;
 }
 
+.hero > img {
+  width: 100%;
+  display: block;
+}
 .hero h1 {
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    color: #f4e9b3;
+    background-color: rgba(0, 0, 0, 0.5); /* adds a semi-transparent background for better text visibility */
+    padding: 10px 0;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20%;
+  left: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* adds a semi-transparent background for better text visibility */
+  padding: 15px;
+}
+
+.hero article img {
+  width: 150px;
+  float: right;
+  margin-left: 15px;
 }
 
 .hero-content {
