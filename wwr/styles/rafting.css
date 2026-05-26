@@ -236,6 +236,7 @@ section {
 figcaption {
   margin-top: 5px;
   font-size: 14px;
+  font-family: var(--heading-font);
 }
 
 /* FOOTER SOCIAL MEDIA */
@@ -248,6 +249,7 @@ footer {
   border: 1px solid var(--black);
   margin-top: 20px;
   color: var(--white);
+  font-family: var(--heading-font);
 }
 
 .social {
