@@ -1,7 +1,7 @@
 /* CSS VARIABLES */
 :root {
     --primary-color: #055a05;
-    --secondary-color: #fbfaf8;
+    --secondary-color: #e1d4b9;
     --accent1-color: #264653;
     --accent2-color: #b0330d;
     --body-font: Arial, Helvetica, sans-serif;
@@ -101,7 +101,8 @@ section {
     left: 20px;
     right: 20px;
     width: 100%;
-    color: var(--primary-color);
+    color: var(--secondary-color);
+    background-color: #0000002d;
     padding: 2px;
 }
 
@@ -117,12 +118,6 @@ section {
   padding: 20px;
   line-height: 1;
   max-width: 800px;
-}
-
-.hero article h2 {
-  color: var(--white);
-  margin: 0 0 0.75rem 0;
-  font-size: 1.8rem;
 }
 
 .hero article p {
@@ -178,6 +173,7 @@ section {
   text-align: center;
   margin-bottom: 2px;
   font-size: 2rem;
+  color: var(--primary-color)
 }
 
 .history-content {
