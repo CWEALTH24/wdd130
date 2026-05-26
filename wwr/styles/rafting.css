@@ -26,11 +26,6 @@ body {
     margin: 0 auto;   
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--black);
-}
-
 h1 {
     font-size: 2.5rem;
     margin: 2rem 0;
@@ -59,7 +54,7 @@ header {
     display:grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 20px;
     border: 1px solid var(--black);   
 }
 
@@ -113,7 +108,7 @@ h1 h2 {
 }
 
 section:nth-of-type(2) h2 {
-  color: var(--primary-color);
+  color: var(--white);
 }
 
 /* HERO SECTION */
@@ -124,7 +119,6 @@ section:nth-of-type(2) h2 {
   height: 320px;
   overflow: hidden;
   position: relative;
-  text-align: center;
 }
 
 .hero > img {
@@ -138,11 +132,11 @@ section:nth-of-type(2) h2 {
 .hero h1 {
     text-align: center;
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 20px;
     right: 20px;
     width: 100%;
-    color: var(--white);
+    color: var(--black);
     padding: 10px 0;
 }
 
