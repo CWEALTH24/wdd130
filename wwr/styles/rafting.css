@@ -418,15 +418,7 @@ nav a:hover {
 }
 
 
-.cta-button {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 20px 25px;
-    background-color: var(--accent1-color);
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
+
 
 .trips-hero .cta-button:hover {
     background-color: var(--secondary-color);
