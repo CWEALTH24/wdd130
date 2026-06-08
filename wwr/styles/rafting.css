@@ -400,7 +400,6 @@ nav a:hover {
     text-align: center;
     padding: 120px 20px;
     position: relative;
-    background-color: linear-gradient(rgba(0, 90, 5, 0.8), rgba(0, 90, 5, 0.8));
     color: var(--white);
 }
 .trips-hero h1 {
