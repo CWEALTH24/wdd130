@@ -83,12 +83,6 @@ header img {
     width: auto;
 }
 
-nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 nav a:hover {
     text-decoration: underline;
@@ -302,12 +296,6 @@ nav a:hover {
 }
 
 /* NEWSLETTER */
-.newsletter {
-    text-align: center;
-    padding: 60px 20px;
-        background-color: var(--white);
-    
-}
 .newsletter h2 {
     margin-bottom: 1rem;
     color: var(--primary-color);
@@ -370,12 +358,6 @@ nav a:hover {
 /* HOME GRID */
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 2rem;
-}
-.home-grid {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 2rem;
@@ -416,9 +398,6 @@ nav a:hover {
     margin: 0 auto 35px;
     line-height: 1.7;
 }
-
-
-
 
 .trips-hero .cta-button:hover {
     background-color: var(--secondary-color);
