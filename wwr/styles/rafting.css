@@ -84,6 +84,7 @@ header img {
 }
 
 
+
 nav a:hover {
     text-decoration: underline;
 }
@@ -365,7 +366,7 @@ nav a:hover {
 
 .grid-item {
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: var(--secondary-color);
     padding: 15px;
     border-radius: 10px;
 }
@@ -498,7 +499,7 @@ nav a:hover {
 }
 
 .trip-table-section tr:nth-child(even) {
-    background-color: #f7f7f7;
+    background-color: var(--white);
 }
 
 .trip-table-section tr:hover {
